@@ -9,7 +9,7 @@
 
 
 - #### Шаг 1: [Определите проблему](https://github.com/digitaldrugstech/prdx-bugtracker)
-- #### Шаг 2: [Проверьте, были ли похожие реквесты](https://github.com/digitaldrugstech/prdx-bugtracker/issues)
+- #### Шаг 2: [Проверьте, были ли похожие реквесты](https://github.com/digitaldrugstech/prdx-bugtracker/issues?q=is%3Aissue+is%3Aopen+)
 - #### Шаг 3: [Отправьте ваш запрос](https://github.com/digitaldrugstech/prdx-bugtracker/issues/new/choose)<br><br>
 
 ## В каких случаях использовать?
