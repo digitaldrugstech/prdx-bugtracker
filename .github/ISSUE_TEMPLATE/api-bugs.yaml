@@ -1,0 +1,64 @@
+name: Проблемы с API
+description: Для api.prdx.so
+labels: ["server"]
+
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Опишите проблему
+      placeholder: Cжатое описание ошибки
+    validations:
+      required: true
+    
+  - type: textarea
+    id: desc
+    attributes:  
+      label: Шаги для воспроизведения поведения
+      value: |
+        1. Выполните HTTP-запрос к API по URL "https://api.prdx.so/saygex".
+        2. Используете метод "....".
+        3. Отправьте запрос и дождитесь "...."
+        4. Получите "...."
+
+        
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Ожидаемое поведение
+      placeholder: Четкое и сжатое описание того, что вы ожидали увидеть, если бы бага не было
+    validations:
+      required: true
+
+  - type: textarea
+    id: media
+    attributes:
+      label: Если возможно, прикрепите скриншоты или видео
+      placeholder: Вставьте сюда
+    validations:
+      required: false
+
+  - type: textarea
+    id: specs
+    attributes:
+      label: Технические характеристики
+      value: |
+       - ОС: Windows / Mac / Linux
+       - Видеокарта, процессор
+       - Оперативная память
+      placeholder:
+    validations:
+      required: false
+
+
+  - type: textarea
+    id: misc
+    attributes:
+      label: Любая дополнительная информация
+      placeholder:
+    validations:
+      required: false
+      
