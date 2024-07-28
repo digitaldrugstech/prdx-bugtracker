@@ -1,38 +1,37 @@
 name: Для предложений
 description: Помогите нам стать лучше
 body:
-   - type: input
+  - type: input
     id: suggestion
     attributes:
       label: Четкое и сжатое описание проблемы
-      description: Сжатое описание
-      placeholder: Я всегда расстраиваюсь, когда [...]
+      description:
+      placeholder:
     validations:
       required: true
-      
-   - type: textarea
+
+  - type: textarea
     id: description
     attributes:
       label: Опишите решение, которое вы хотели бы получить
       description: Четкое и сжатое описание того, что вы хотите, чтобы произошло
-      placeholder: Я хочу видеть здесь ... , потому что ...
+      placeholder: Я хочу видеть здесь X , потому что Z
     validations:
       required: true
 
-   - type: textarea
+  - type: textarea
     id: alternatives
     attributes:
       label: Опишите альтернативы, которые вы рассматривали
-      description: Четкое и сжатое описание любых альтернативных механки или фич, которые вы рассматривали
-      placeholder: Я считаю, что ... лучше оптимизирован и может заменить ...
+      description: Четкое и сжатое описание любых альтернативных механизмов или фич, которые вы рассматривали
+      placeholder: Я считаю, что X лучше оптимизирован и может заменить Z
     validations:
-      required: true
+      required: false
 
-   - type: textarea
+  - type: textarea
     id: context
     attributes:
       label: Дополнительный контекст
       description: Добавьте сюда любой другой контекст или скриншоты о запросе фичи
-      placeholder:
     validations:
-      required: true
+      required: false
