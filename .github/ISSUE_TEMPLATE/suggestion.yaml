@@ -1,5 +1,7 @@
 name: Для предложений
 description: Помогите нам стать лучше
+labels: ["suggestion"]
+
 body:
   - type: input
     id: suggestion
