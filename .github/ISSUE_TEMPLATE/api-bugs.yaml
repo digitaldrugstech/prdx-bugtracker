@@ -1,6 +1,7 @@
 name: Проблемы с API
 description: Для prdx.so
-labels: ["api"] ["unmarked"]
+labels: ["api"]
+labels: ["unmarked"]
 
 body:
   - type: input
