@@ -1,6 +1,6 @@
 name: Для предложений
 description: Помогите нам стать лучше
-labels: ["suggestion"]
+labels: ["enhancement"]
 
 body:
   - type: input
