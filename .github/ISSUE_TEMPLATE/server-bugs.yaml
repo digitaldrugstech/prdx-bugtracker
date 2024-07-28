@@ -1,6 +1,8 @@
 name: Баг на сервере
 description: Для prdx.so и cr.prdx.so
-labels: ["minecraft"]
+labels: 
+  - unmarked
+  - server
 
 body:
   - type: input
