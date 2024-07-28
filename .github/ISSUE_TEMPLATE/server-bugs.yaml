@@ -2,7 +2,7 @@ name: Баг на сервере
 description: Для prdx.so и cr.prdx.so
 labels: 
   - unmarked
-  - server
+  - minecraft
 
 body:
   - type: input
