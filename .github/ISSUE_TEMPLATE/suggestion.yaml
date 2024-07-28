@@ -1,6 +1,8 @@
 name: Для предложений
 description: Помогите нам стать лучше
-labels: ["enhancement"]
+labels: 
+  - unmarked
+  - enhancement
 
 body:
   - type: input
