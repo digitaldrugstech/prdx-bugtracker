@@ -41,30 +41,6 @@ body:
       placeholder: Вставьте сюда
     validations:
       required: false
-
-  - type: textarea
-    id: specs
-    attributes:
-      label: Технические характеристики
-      value: |
-       - ОС: Windows / Mac / Linux
-       - Видеокарта, процессор
-       - Оперативная память
-      placeholder:
-    validations:
-      required: false
-
-  - type: textarea
-    id: mc
-    attributes:
-      label: Minecraft (если ошибка связана с визуальными багами / сложностями при входе на сервер)
-      value: |
-        - Версия: [1.20.6 Fabric]
-        - Лаунчер [Prism Launcher]
-      placeholder:
-    validations:
-      required: false
-
       
 
   - type: textarea
