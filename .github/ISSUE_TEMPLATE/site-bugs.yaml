@@ -5,7 +5,7 @@ labels:
   - web
 
 body:
-  - type: input
+  - type: textarea
     id: name
     attributes:
       label: Опишите баг
