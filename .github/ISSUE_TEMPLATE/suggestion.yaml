@@ -5,7 +5,7 @@ labels:
   - enhancement
 
 body:
-  - type: input
+  - type: textarea
     id: suggestion
     attributes:
       label: Четкое и сжатое описание проблемы
