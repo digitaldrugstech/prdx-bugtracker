@@ -1,0 +1,53 @@
+name: Баги с дискордом
+description: Для дискорда Prdx
+labels: 
+  - unmarked
+  - discord
+
+body:
+  - type: textarea
+    id: name
+    attributes:
+      label: Опишите баг
+      placeholder: Cжатое описание ошибки
+    validations:
+      required: true
+    
+  - type: textarea
+    id: desc
+    attributes:  
+      label: Шаги для воспроизведения поведения
+      value: |
+        1. Зайдите в Discord prdx.so
+        2. Нажмите/напишите "...."
+        3. Пройдите до "...."
+        4. Получите "...."
+        
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Ожидаемое поведение
+      placeholder: Четкое и сжатое описание того, что вы ожидали увидеть, если бы бага не было
+    validations:
+      required: true
+
+  - type: textarea
+    id: media
+    attributes:
+      label: Если возможно, прикрепите скриншоты или видео
+      placeholder: Вставьте сюда
+    validations:
+      required: false
+      
+
+  - type: textarea
+    id: misc
+    attributes:
+      label: Любая дополнительная информация
+      placeholder:
+    validations:
+      required: false
+      
