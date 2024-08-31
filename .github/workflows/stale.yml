@@ -1,0 +1,23 @@
+name: Mark stale issues and pull requests
+
+on:
+  schedule:
+  - cron: '24 1 * * *'
+
+jobs:
+  stale:
+
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+
+    steps:
+    - uses: actions/stale@v5
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        stale-issue-message: 'Прошло 14 дней с момента последнего обновления в тикете. Если тикет больше не актуален, пожалуйста, закройте его или дайте нам знать, что проблема все еще существует, чтобы мы могли завершить задачу.\n\Команда DD Tech'
+        stale-pr-message: 'Прошло 14 дней с момента последнего обновления по Pull Request. Мы бы хотели узнать, планируете ли вы продолжить работу над этим PR или он может быть закрыт? Если у вас есть какие-либо вопросы или вам нужна помощь, дайте знать\n\nКоманда DD Tech'
+        stale-issue-label: 'no-issue-activity'
+        stale-pr-label: 'no-pr-activity'
+        days-before-stale: 14
