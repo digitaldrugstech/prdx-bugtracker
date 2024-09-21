@@ -43,18 +43,6 @@ body:
     validations:
       required: false
 
-  - type: textarea
-    id: specs
-    attributes:
-      label: Технические характеристики
-      value: |
-       - ОС: Windows / Mac / Linux
-       - Видеокарта, процессор
-       - Оперативная память
-      placeholder:
-    validations:
-      required: false
-
 
   - type: textarea
     id: misc
